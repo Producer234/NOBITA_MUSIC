@@ -1,6 +1,5 @@
 from NOBITA_MUSIC.core.bot import NOBITA
 from NOBITA_MUSIC.core.dir import dirr
-from NOBITA_MUSIC.core.git import git
 from NOBITA_MUSIC.core.userbot import Userbot
 from NOBITA_MUSIC.misc import dbb, heroku
 
@@ -8,7 +7,6 @@ from SafoneAPI import SafoneAPI
 from .logging import LOGGER
 
 dirr()
-git()
 dbb()
 heroku()
 
